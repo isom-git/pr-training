@@ -28,7 +28,8 @@ class GildedRose {
                         }
 
                         if (items[i].sellIn < 6) {
-                            if (items[i].quality < 50) {
+                            //Changes by Supriya
+                            if (items[i].quality < 40) {
                                 items[i].quality = items[i].quality + 1;
                             }
                         }
