@@ -2,21 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Build and test') {
             steps {
-                echo 'BuSSSilding..'
+                sh 'mvn clean test'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
+
     }
 
     post {
