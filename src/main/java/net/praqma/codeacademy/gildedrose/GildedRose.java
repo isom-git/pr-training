@@ -17,7 +17,7 @@ class GildedRose {
                     }
                 }
             } else {
-                if (items[i].quality < 50) {
+                if (items[i].quality < 40) {
                     items[i].quality = items[i].quality + 1;
 
                     if (items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
@@ -28,7 +28,8 @@ class GildedRose {
                         }
 
                         if (items[i].sellIn < 6) {
-                            if (items[i].quality < 50) {
+                            //Changes by Supriya
+                            if (items[i].quality < 40) {
                                 items[i].quality = items[i].quality + 1;
                             }
                         }
