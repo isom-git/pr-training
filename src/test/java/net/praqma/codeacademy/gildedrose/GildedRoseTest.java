@@ -42,7 +42,7 @@ public class GildedRoseTest {
         Item[] items = new Item[] { new Item("Another Thing", 0, 10) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("Should degrade with one",9,app.items[0].quality );
+        assertEquals("Should degrade with one",8,app.items[0].quality );
         
     }
 }
