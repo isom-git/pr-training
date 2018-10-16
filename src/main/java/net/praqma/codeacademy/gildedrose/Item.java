@@ -8,7 +8,7 @@ public class Item {
 
     public int quality;
     
-    public int quantity;
+    public int quantity; 
 
     public Item(String name, int sellIn, int quality) {
         this.name = name;
