@@ -12,6 +12,7 @@ pipeline {
 
     post {
         success {
+            junit 'target/surefire-reports/**/*.xml'
             script {
                 if (pullRequest.mergeable) {
                     pullRequest.merge([
