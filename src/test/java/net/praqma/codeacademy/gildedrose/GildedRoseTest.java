@@ -39,7 +39,7 @@ public class GildedRoseTest {
     }
     @Test
     public void degrading_goods_twice() {
-        Item[] items = new Item[] { new Item("Another Thing", 0, 86) };
+        Item[] items = new Item[] { new Item("Another Thing", 0, 6) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals("Should degrade with one",4,app.items[0].quality );
