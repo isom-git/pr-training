@@ -1,6 +1,6 @@
 package net.praqma.codeacademy.gildedrose;
 
-public class Item {
+public class Item2 {
 
     public String name;
 
@@ -10,7 +10,7 @@ public class Item {
     
     public int quantity; 
 
-    public Item(String name, int sellIn, int quality) {
+    public Item2(String name, int sellIn, int quality) {
         this.name = name;
         this.sellIn = sellIn;
         this.quality = quality;
@@ -18,6 +18,6 @@ public class Item {
 
    @Override
    public String toString() {
-        return this.name + ",, " + this.sellIn + ", " + this.quality;
+        return this.name + ", " + this.sellIn + ", " + this.quality;
     }
 }
