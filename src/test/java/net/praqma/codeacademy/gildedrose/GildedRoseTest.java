@@ -46,7 +46,7 @@ public class GildedRoseTest {
         
     }
     @Test
-    public void failingTest() {
+    public void mocPassingTest() {
         assertTrue(true);
     }
 }
