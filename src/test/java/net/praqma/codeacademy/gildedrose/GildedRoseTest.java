@@ -5,10 +5,10 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class GildedRoseTest {
-
+//test comment nnbj asdfasdf
     @Test
     public void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        Item[] items = new Item[] { new Item("foo", 0, 11) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals("foo", app.items[0].name);
@@ -44,5 +44,9 @@ public class GildedRoseTest {
         app.updateQuality();
         assertEquals("Should degrade with one",4,app.items[0].quality );
         
+    }
+    @Test
+    public void mocPassingTest() {
+        assertTrue(true);
     }
 }
