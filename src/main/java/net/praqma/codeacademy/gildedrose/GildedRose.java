@@ -10,7 +10,7 @@ class GildedRose {
     public void updateQuality() {
     	//Added comments 
         for (int i = 0; i < items.length; i++) {
-        	// Added comments qwerty
+        	// Added comments qwert
             if (!items[i].name.equals("Aged Brie")
                     && !items[i].name.equals("Backstage passes to a TAFKAL80ETC concert")) {
                 if (items[i].quality > 0) {
