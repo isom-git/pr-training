@@ -45,4 +45,8 @@ public class GildedRoseTest {
         assertEquals("Should degrade with one",4,app.items[0].quality );
         
     }
+    @Test
+    public void failingTest() {
+        assertTrue(true);
+    }
 }
