@@ -12,7 +12,7 @@ pipeline {
 
     post {
         success {
-            junit 'target/**/*.xml'
+            //junit 'target/**/*.xml'
             script {
                 if (pullRequest.mergeable) {
                     pullRequest.merge([
